@@ -14,4 +14,6 @@ for j in 1:5
   k += array[j]
 end
 
+println(array[5] + array[1] - array[2])
+
 println(k)
