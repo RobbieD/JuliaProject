@@ -1,11 +1,11 @@
 
-array = 5x5 Array{Int64, 2}
+array = Array({float64}(5,5))
 
 f =open("mathsTest2.txt")
 
 for i in 1:5
-  a = parse(Int,readline(f))
-  array[i] = a
+  a = readline(f)
+  array[i][1] = a
 end
 
 k = 0
@@ -15,3 +15,6 @@ for j in 1:5
 end
 
 println(k)
+
+
+#=parse(Int,readline(f))=#
