@@ -17,3 +17,7 @@ print(mat3, "\n")
 
 #= okay so that worked very well, super simple.
   Now we can get into the good stuff=#
+
+mat4 = mat1/mat2
+
+print("\nDivision\n", mat4, "\n\n")
