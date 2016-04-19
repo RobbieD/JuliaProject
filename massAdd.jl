@@ -1,4 +1,5 @@
 push!(LOAD_PATH, "/Users/Rob/GitHub/JuliaProject")
+push!(LOAD_PATH, "C:\\Users\\100460700\\Documents\\GitHub\\JuliaProject")
 using rand55
 
 tot = 0
