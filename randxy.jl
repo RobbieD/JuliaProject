@@ -45,7 +45,7 @@ if y1 == x2
   print(matM,"\n")
   println(" *(mat1, mat2) ")
   tic()
-  matM2 = *(mat1, mat2)
+  matM2 = *(mat3, mat4)
   toc()
   print(matM2, "\n")
   println(" mat1 .* mat2 ")
